@@ -2,7 +2,7 @@
 Programming Assignment - Getting and Cleaning Data  
 P Skelton - Mar 2015
 
-## Breif
+## Brief
 You should create one R script called run_analysis.R that does the following.   
  1) Merges the training and the test sets to create one data set.  
  2) Extracts only the measurements on the mean and standard deviation for each measurement.   
@@ -22,7 +22,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The script requires that you download and unzip the data set and put it in the same folder as the script.  
 The folder containing "run_analysis.R" and "UCI HAR Dataset" should then be set as the working directory.  
 The script is dependant on the 'dplyr' library. This package should be installed prior to use.  
-Running the script in R studio will then produce a tidy data set file "avgtidy.txt" from the above breif.
+Running the script in R studio will then produce a tidy data set file "avgtidy.txt" from the above brief.
 
 ## Codebook
 Please see the codebook for a description of the scripts functions and the output it produces.  

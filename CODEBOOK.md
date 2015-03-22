@@ -26,6 +26,6 @@ It comprises of 68 columns. subject (experiment subject id), activity (test acti
 ## Notes
 * No disctinction is made between the TRAIN and TEST datasets. When merged you can no longer tell from where each observation has come. This information was dropped as none of the further analysis needed to check between the two.
 * Column names have been kept the same as from the origional dataset "features_info". They are descriptive in their format already, and without any further columnwise analysis required there is no need to improve typeability.
-* Only columns exactly matching "mean()" and "std()" where used for the subset. Breif states "Extracts only the measurements on the mean and standard deviation for each measurement." This eliminates mean and std values where the measurement has undergone further processing. "features_info" states there are 33 signals that can have mean() and std() applied to them.
+* Only columns exactly matching "mean()" and "std()" where used for the subset. Brief states "Extracts only the measurements on the mean and standard deviation for each measurement." This eliminates mean and std values where the measurement has undergone further processing. "features_info" states there are 33 signals that can have mean() and std() applied to them.
 
 
