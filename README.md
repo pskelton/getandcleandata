@@ -20,6 +20,9 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ## Using run_analysis.R
 The script requires that you download and unzip the data set and put it in the same folder as the script.  
-Th folder containing "run_analysis.R" and "UCI HAR Dataset" shoudl then be set as the working directory.  
+The folder containing "run_analysis.R" and "UCI HAR Dataset" should then be set as the working directory.  
 The script is dependant on the 'dplyr' library. This package should be installed prior to use.  
-Running the script in R studio will then produce a tidy data set file "avgtidy.txt" from the above breif.  
+Running the script in R studio will then produce a tidy data set file "avgtidy.txt" from the above breif.
+
+## Codebook
+Please see the codebook for a description of the scripts functions and the output it produces.  
