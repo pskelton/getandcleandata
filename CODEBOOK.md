@@ -21,7 +21,10 @@ Please see the files "Readme" and "features_info" in the UCI HAR Dataset folder 
 
 ## Output data format
 The average tidy data set is (30 subjects * 6 activities) 180 rows.
-It comprises of 68 columns. subject (experiment subject id), activity (test activty for measurements) and then 66 columns of the average values (the mean() and std() values from 33 signals) listed in "features_info" in the original dataset.
+It comprises of 68 columns. subject, activty then 66 columns of means (33 signals with mean() and std()).
+* subject is the subject id taken from "subject_train" and "subject_test" datafiles
+* activity is the activity description taken from "activity_labels" datafile
+* the remaining columns are average values for each columns values over each subject and actvity. See "features_info" for description of variable. 
 
 ## Notes
 * No disctinction is made between the TRAIN and TEST datasets. When merged you can no longer tell from where each observation has come. This information was dropped as none of the further analysis needed to check between the two.
