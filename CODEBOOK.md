@@ -12,10 +12,7 @@ Please see the files "Readme" and "features_info" in the UCI HAR Dataset folder 
 4. Label the columns on these datasets and change acitvitys vairbale to descriptive
 5. Merge the 3 datasets together by adding the columns
 6. We are only interested in columns featuring "mean()" and "std()" so remove all other columns apart from subject and activty.
-7. "datatidy" is now a tidy data set featuring the columns:
-+subject
-+activty
-+and columns showing the mean and standard deviation for the various measurements
+7. "datatidy" is now a tidy data set featuring the columns: subject, activty and columns showing the mean and standard deviation for the various measurements
 8. A second tidy dataset is then created. This contains the average of each variable mean and standard deviation for each acitivy and each subject.
 9. This average tidy is the written to the working directory.
 
